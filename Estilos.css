@@ -222,36 +222,43 @@ section img {width:99.99%}
     color: white;
 }
 
-@media (max-width: 768px) {
-    .header {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    
-    }
-    .header__menu ul a:hover{    
-        color: black;
-       }
-       
-       
 
-    
-    
-    .Pata {
-        display: grid;
-        justify-content: center;
-        align-items: center;
-        gap: 0.1vh;
-        grid-template-columns: repeat(2, auto);}
-    .Personas {
-        display: grid;
-        grid-template-columns: repeat(2,auto);
-
+@keyframes mi-efecto {
+    0% {
+        background-image: url(./img/Foto\ Inicio.jpg);
+        
     }
-    
-    
-} 
+    35% {
+        background-image: url(./img/Foto\ Fin.jpg);
+        
+    }
+    50% {
+        
+    }    
+    75% {
+        background-image: url(./img/Chicos2.jpg);
+        
+    }    
+    100% {
+        background-image: url(./img/Chicos1.jpg);
+        
+    }    
+}
+
+.transition {
+    margin-left: 7.5%; 
+    width: 85vw;
+    height: 95vh;
+    background-size: cover;
+    background-attachment:local;
+    justify-content: center;
+    align-items: center;
+    animation: mi-efecto 25s  2s  infinite ;
+}
+.textito {
+    display: flex;
+    justify-content: center;
+}
 @media (max-width: 1024px) {
     .fotos {
         display: grid;
@@ -263,53 +270,61 @@ section img {width:99.99%}
         gap: 0.1vh;
         grid-template-columns: repeat(2, auto);
         
-    
+        
     }
     .Personas {
         display: grid;
         grid-template-columns: repeat(2,auto);
-
+        
+    }
+    .transition {
+        margin-left: 7.5%; 
+        width: 85vw;
+        height: 80vh;
+        background-size: cover;
+        background-attachment:local;
+        justify-content: center;
+        align-items: center;
+        animation: mi-efecto 25s  2s  infinite ;
+    }
+}
+@media (max-width: 768px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .header__menu ul a:hover{    
+        color: black;
     }
     
-}
-
-@keyframes mi-efecto {
-    0% {
-        background-image: url(./img/Foto\ Inicio.jpg);
+    
+    
+    
+    
+    .Pata {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        gap: 0.1vh;
+        grid-template-columns: repeat(2, auto);}
+        .Personas {
+            display: grid;
+        grid-template-columns: repeat(2,auto);
 
     }
-    35% {
-        background-image: url(./img/Foto\ Fin.jpg);
-
+    .transition {
+        margin-left: 7.5%; 
+        width: 85vw;
+        height: 60vh;
+        background-size: cover;
+        background-attachment:local;
+        justify-content: center;
+        align-items: center;
+        animation: mi-efecto 25s  2s  infinite ;
     }
-    50% {
+} 
 
-    }    
-    75% {
-        background-image: url(./img/Chicos2.jpg);
 
-    }    
-    100% {
-        background-image: url(./img/Chicos1.jpg);
-
-    }    
-}
-.transition {
-     margin-left: 7.5%; 
-    width: 85vw;
-    height: 95vh;
-    background-size: cover;
-    background-attachment:local;
-    justify-content: center;
-    align-items: center;
-    /* animation-name: mi-efecto;
-    animation-duration: 2s;
-    animation-delay: 3s;
-    animation-iteration-count: 1;
-    animation-timing-function: linear; */
-    animation: mi-efecto 25s  2s  infinite ;
-}
-.textito {
-    display: flex;
-    justify-content: center;
-    }
