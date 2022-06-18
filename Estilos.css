@@ -166,7 +166,7 @@ section img {width:99.99%}
 
 .fotos {
 
-    width: 30vh;
+    /* width: 30vh; */
     height: auto;
     filter: grayscale(1);
     border: 2px solid rgb(81, 206, 255); 
