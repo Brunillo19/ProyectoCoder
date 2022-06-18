@@ -1,0 +1,314 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poiret One', cursive;
+    font-size: 20px;
+    text-decoration: none;
+    
+}
+/* MENU */
+/* body {
+    background-color: lightgray;
+} */
+.header {
+    display: flex;
+    position: sticky;
+    top: 0.1px;
+    background: linear-gradient(90deg, black, rgb(0, 44, 138)); 
+
+    z-index: 2;
+    justify-content: space-between;
+    left:33%;
+    opacity: 85%;
+}
+.header__menu ul{
+    display: flex;
+    list-style: none;
+    font-size: 10px;
+    justify-content: center;
+    gap: 10px;
+
+}
+.header .logo {
+    left: 0;
+}
+/* .boton {
+    bottom: 32px;
+    box-shadow: 3px 3px 9px rgba(0,0,0,.5);
+    opacity: .75;
+    position: fixed;
+    right: 32px;
+    transition: opacity 250ms;
+    z-index: 2;
+    min-width: auto;
+} */
+.header__menu ul a{
+
+    text-decoration: none;
+/*     background-color: darkgray; */
+    border-radius: 10%;
+    padding: 0 15px;
+    font-size: 20px;
+    color: white
+    
+}
+.header__menu li {
+    display: inline-block;
+    position:relative;
+    font-size: 15px;
+    transition: all 1s;
+ }
+ 
+.header__menu ul ul {
+    position: absolute;
+    display: none;
+ }
+ .header__menu ul ul li {
+    display: block;
+    margin: 2px;
+    background-color: #F0F0F0;
+    opacity: 90%;
+    
+ }
+
+
+ .header__menu ul li:hover ul {
+    display:block;
+
+ }
+ .header__menu ul a:hover{    
+     color: red;
+    }
+ .header__menu ul li ul a:hover{    
+     color: red;
+    }
+ .header__menu ul li ul a{    
+     color: black;
+    }
+/* .header__menu ul li ul a:hover {
+        color: black;
+    } */
+ /* MENU */
+.Inicio{
+    height: 95%;
+    /* width: 99%;
+    background-image: url(./img/Foto\ Inicio.jpg);
+    background-size: cover;*/
+} 
+h1 {
+    position: absolute;
+margin-left: 35%;
+color: white;
+vertical-align: auto;
+text-align: center;}
+section img {width:99.99%}
+
+.Inicio .Titulo{
+    background-color: none;
+    display: block;
+    text-align: center;
+    font-family: 'Poiret One', cursive;  
+    color: white;
+    
+} 
+.h2 {
+    color: white;  
+}
+
+.Footer, .Footer a {
+    text-align: center;
+    justify-content: space-evenly;
+    list-style: none;
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+}
+.Footer {
+    background: linear-gradient(90deg, black, rgb(0, 44, 138)); 
+}
+
+.Footer .FooterLink {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.Contacto {
+    height: 100vh;
+    background-image: url(./img/Foto\ Fin.jpg);
+    font-family: 'Poiret One', cursive;  
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: block;
+    background-size:cover;
+    color: white;
+}
+
+.textosFotos {
+    height: auto;
+    font-family: 'Poiret One', cursive; 
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+    text-decoration: none;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    color: black;
+}
+.textosFotos img {
+    width: 40vh;
+}
+
+.fotos {
+
+    width: 30vh;
+    height: auto;
+    filter: grayscale(1);
+    border: 2px solid rgb(81, 206, 255); 
+    transition: all .5s;  
+}
+.fotos img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.fotos1 {
+    grid-area: "imagen";
+    width: 30vh;
+    height: auto;
+    filter: grayscale(1);
+    border: 2px solid rgb(81, 206, 255); 
+    transition: all .5s;  
+}
+.fotos1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.Pata {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 0.1vh;
+    grid-template-columns: repeat(4, 1fr);
+}
+.Personas {
+    display: grid;
+    grid-template-columns: repeat(5,auto);
+
+}
+.fotos:hover {
+    filter: none;
+
+}
+
+.yo {
+    color: black;
+}
+.fotosLinks {
+    filter: grayscale(1);
+}
+.Footer .FooterLink .Links:hover {
+    box-shadow: 0 0 20px 0px rgb(0 0 0 / 39%);
+    outline: 0;
+
+}
+.Links {
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .header__menu ul a:hover{    
+        color: black;
+       }
+       
+       .Pata {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        gap: 0.1vh;
+        grid-template-columns: repeat(2, auto);
+        overflow: auto;
+    
+    }
+    .Personas {
+        display: grid;
+        grid-template-columns: repeat(2,auto);
+
+    }
+    
+    
+} 
+@media (max-width: 1024px) {
+    .fotos {
+        display: grid;
+    }
+    .Pata {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        gap: 0.1vh;
+        grid-template-columns: repeat(3, auto);
+        
+    
+    }
+    .Personas {
+        display: grid;
+        grid-template-columns: repeat(2,auto);
+
+    }
+    
+}
+
+@keyframes mi-efecto {
+    0% {
+        background-image: url(./img/Foto\ Inicio.jpg);
+
+    }
+    35% {
+        background-image: url(./img/Foto\ Fin.jpg);
+
+    }
+    50% {
+
+    }    
+    75% {
+        background-image: url(./img/Chicos2.jpg);
+
+    }    
+    100% {
+        background-image: url(./img/Chicos1.jpg);
+
+    }    
+}
+.transition {
+     margin-left: 7.5%; 
+    width: 85vw;
+    height: 95vh;
+    background-size: cover;
+    background-attachment:local;
+    justify-content: center;
+    align-items: center;
+    /* animation-name: mi-efecto;
+    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear; */
+    animation: mi-efecto 25s  2s  infinite ;
+}
+.textito {
+    display: flex;
+    justify-content: center;
+    }
