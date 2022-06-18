@@ -240,7 +240,7 @@ section img {width:99.99%}
         align-items: center;
         gap: 0.1vh;
         grid-template-columns: repeat(2, auto);
-        overflow: auto;
+
     
     }
     .Personas {
@@ -260,7 +260,7 @@ section img {width:99.99%}
         justify-content: center;
         align-items: center;
         gap: 0.1vh;
-        grid-template-columns: repeat(3, auto);
+        grid-template-columns: repeat(2, auto);
         
     
     }
