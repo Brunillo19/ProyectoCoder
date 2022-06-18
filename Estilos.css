@@ -268,14 +268,13 @@ section img {width:99.99%}
         justify-content: center;
         align-items: center;
         gap: 0.1vh;
-/*         grid-template-columns: repeat(2, auto); */
-        grid-area: "fotos fotos";
-        
+        grid-template-columns: repeat(2, auto); 
+      
     }
     .Personas {
         display: grid;
-        /* grid-template-columns: repeat(2,auto); */
-        grid-area: "fotos fotos";
+        grid-template-columns: repeat(2,auto); 
+/*      grid-area: "fotos fotos"; */
     }
     .transition {
         margin-left: 7.5%; 
@@ -311,12 +310,13 @@ section img {width:99.99%}
         justify-content: center;
         align-items: center;
         gap: 0.1vh;
-        /* grid-template-columns: repeat(2, auto); */
-        grid-area: "fotos fotos";}
+        grid-template-columns: repeat(2, auto);
+        /* grid-area: "fotos fotos"; */
+    }
         .Personas {
             display: grid;
-            /* grid-template-columns: repeat(2,auto); */
-            grid-area: "fotos fotos";
+            grid-template-columns: repeat(2,auto);
+            /* grid-area: "fotos fotos"; */
         }
 
 
