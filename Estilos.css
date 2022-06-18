@@ -177,7 +177,7 @@ section img {width:99.99%}
     height: 100%;
     object-fit: cover;
 }
-.fotos1 {
+/* .fotos1 {
     grid-area: "imagen";
     width: 30vh;
     height: auto;
@@ -189,7 +189,7 @@ section img {width:99.99%}
     width: 100%;
     height: 100%;
     object-fit: cover;
-}
+} */
 .GrillaFotos {
     display: grid;
     justify-content: center;
