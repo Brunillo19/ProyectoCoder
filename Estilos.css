@@ -234,15 +234,16 @@ section img {width:99.99%}
         color: black;
        }
        
-       .Pata {
+       
+
+    
+    
+    .Pata {
         display: grid;
         justify-content: center;
         align-items: center;
         gap: 0.1vh;
-        grid-template-columns: repeat(2, auto);
-
-    
-    }
+        grid-template-columns: repeat(2, auto);}
     .Personas {
         display: grid;
         grid-template-columns: repeat(2,auto);
