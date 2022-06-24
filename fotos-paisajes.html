@@ -15,25 +15,62 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous"/>
 </head>
 <body>
     <header class="header">
-        <a href="./index.html"><img src="./img/Sin título.jpg" alt="LOGO" width="48"></a>
-        <nav class="header__menu animate__animated animate__backInRight">
-            <ul>
-                <li><a href="./index.html">Home</a> </li>
-                <li><a href="./Portfolio.html"> Portfolio</a>
+        <!-- Menu desktop -->
+          <div>
+  
+              <a href="./index.html"><img src="./img/Sin título.jpg" alt="LOGO" width="48" class="logo"></a>
+          </div>
+          <div>
+  
+              <nav class="header__menu animate__animated animate__backInRight">
+                  <ul>
+                      <li><a href="./index.html">Home</a> </li>
+                      <li><a href="./Portfolio.html"> Portfolio</a>
+                          <ul>
+                              <li><a href="./fotos-personas.html">Personas</a> </li>
+                              <li><a href="./fotos-paisajes.html">Paisajes</a> </li>
+                          </ul>
+                      </li>
+                      
+                      <li><a href="./AboutMe.html">Sobre Mi</a> </li>
+                      <li><a href="./Contacto.html">Contacto</a> </li>
+                  </ul>
+                </nav>
+              </div>
+                <!-- Fin Menu desktop -->
+          <!-- Menú Mobile -->
+          <div class="menuMobile">
+  
+            <div class="collapse" id="navbarToggleExternalContent">
+              <div class=" p-4">
+                <ul class="align-middle">
+                  <li class="list-style-none text-decoration-none"><a href="./index.html">Home</a> </li>
+                  <li><a href="./Portfolio.html" class="color-info"> Portfolio</a>
                     <ul>
-
-                        <li><a href="./fotos-personas.html">Personas</a> </li>
-                        <li><a href="./fotos-paisajes.html">Paisajes</a> </li>
+                      <li><a href="./fotos-personas.html">Personas</a> </li>
+                      <li><a href="./fotos-paisajes.html">Paisajes</a> </li>
                     </ul>
-                </li>
+                  </li>
+                  
+                  <li><a href="./AboutMe.html">Sobre Mi</a> </li>
+                  <li><a href="./Contacto.html">Contacto</a> </li>
+                </ul>
                 
-                <li><a href="./AboutMe.html">Sobre Mi</a> </li>
-                <li><a href="./Contacto.html">Contacto</a> </li>
-            </ul>
-    </nav>
+              </div>
+            </div>
+            <nav class="navbar navbar-dark ">
+              <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              </div>
+            </nav>
+          </div>
+               <!-- Fin Menú Mobile -->
     </header>
     <hr>
     <section class="textosFotos">
@@ -169,5 +206,6 @@
         
         <p>&copy; 2022 - Todas las imagenes expuestas en esta página son de mi autoría, para cualquier uso, consultar.</p>    
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>

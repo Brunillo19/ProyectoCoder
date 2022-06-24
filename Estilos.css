@@ -148,7 +148,9 @@ section img {width:99.99%}
     background-size:cover;
     color: white;
 }
-
+.form {
+    height: 100vh;
+}
 .textosFotos {
     height: auto;
     font-family: 'Poiret One', cursive; 
@@ -361,5 +363,8 @@ section img {width:99.99%}
     width: 75%;
     display: block;
     margin: 0 auto;
+}
+.textosFotos a {
+    text-decoration: none;
 }
 
