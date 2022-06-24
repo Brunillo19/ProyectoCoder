@@ -357,4 +357,9 @@ section img {width:99.99%}
 .navbar {
     display: none;
 }
+.carrusela {
+    width: 75%;
+    display: block;
+    margin: 0 auto;
+}
 
