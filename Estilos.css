@@ -25,7 +25,7 @@
 .header__menu ul{
     display: flex;
     list-style: none;
-    font-size: 10px;
+    font-size: 0.5em;
     justify-content: center;
     gap: 10px;
 
@@ -49,7 +49,7 @@
 /*     background-color: darkgray; */
     border-radius: 10%;
     padding: 0 15px;
-    font-size: 20px;
+    /* font-size: 0.5em; */
     color: white;
     display: flex;
     
@@ -57,7 +57,7 @@
 .header__menu li {
     display: inline-block;
     position:relative;
-    font-size: 15px;
+    /* font-size: 15px; */
     transition: all 1s;
  }
  
@@ -70,6 +70,7 @@
     margin: 2px;
     background-color: #F0F0F0;
     opacity: 90%;
+    font-size: 1.5em;
     
  }
 
@@ -224,7 +225,7 @@ section img {width:99.99%}
 }
 
 
-@keyframes mi-efecto {
+/* @keyframes mi-efecto {
     0% {
         background-image: url(./img/Foto\ Inicio.jpg);
         
@@ -255,12 +256,26 @@ section img {width:99.99%}
     justify-content: center;
     align-items: center;
     animation: mi-efecto 25s  2s  infinite ;
-}
+} */
 .textito {
     display: flex;
     justify-content: center;
 }
+
+.menuMobile {
+    display: none;
+}
 @media  (min-width: 768px) and (max-width: 1023px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(90deg,  rgb(155, 23, 155),black);
+    }
+    .header__menu ul a:hover{    
+        color: black;
+    }
     .fotos {
         display: grid;
     }
@@ -289,7 +304,7 @@ section img {width:99.99%}
     }
 }
 @media (max-width: 767px) {
-    .header {
+  /*   .header {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -306,10 +321,21 @@ section img {width:99.99%}
 
 
         padding: 0 5px;
+    } */
+    .menuMobile {
+        display: block;
     }
-    
-    
-    
+    .header__menu {
+        display: none ;
+    }
+    a {
+
+        text-decoration: none !important;
+
+    }
+    a:hover {
+        color: black;
+    }
     
     .GrillaFotos {
         display: grid;
@@ -326,16 +352,9 @@ section img {width:99.99%}
         }
 
 
-    .transition {
-        margin-left: 7.5%; 
-        width: 85vw;
-        height: 60vh;
-        background-size: cover;
-        background-attachment:local;
-        justify-content: center;
-        align-items: center;
-        animation: mi-efecto 25s  2s  infinite ;
-    }
+   
 } 
-
+.navbar {
+    display: none;
+}
 
