@@ -9,18 +9,16 @@
 }
 /* MENU */
 
-
  
 .header {
     display: flex;
     position: sticky;
     top: 0.1px;
     background: linear-gradient(90deg, black, rgb(0, 44, 138)); 
-
     z-index: 2;
-    gap: 35%;
     left:33%;
     opacity: 85%;
+    justify-content: space-between;
 }
 .header__menu ul{
     display: flex;
@@ -161,6 +159,9 @@ section img {width:99.99%}
     color: black;
 }
 .textosFotos img {
+    width: 40vh;
+}
+.PortfolioFotos img {
     width: 40vh;
 }
 
@@ -307,6 +308,28 @@ section img {width:99.99%}
     text-decoration: none;
 }
 
-.alinear {
-    justify-content: center;
+.collapse div ul li a {
+    text-decoration: none;
+    color: white;
+}
+.collapse div ul li a:hover {
+
+    color: black;
+}
+.collapse div ul {
+
+    list-style: none;
+
+}
+.textosFotos a {
+    font-size: .7em;
+
+}
+.textosFotos img:hover {
+    border: 2px solid rgb(2, 248, 248);
+
+}
+.textosFotos a:hover {
+    color:red;
+    
 }
