@@ -8,9 +8,9 @@
     
 }
 /* MENU */
-/* body {
-    background-color: lightgray;
-} */
+
+
+ 
 .header {
     display: flex;
     position: sticky;
@@ -88,15 +88,11 @@
  .header__menu ul li ul a{    
      color: black;
     }
-/* .header__menu ul li ul a:hover {
-        color: black;
-    } */
+
  /* MENU */
 .Inicio{
     height: 95%;
-    /* width: 99%;
-    background-image: url(./img/Foto\ Inicio.jpg);
-    background-size: cover;*/
+
 } 
 h1 {
     position: absolute;
@@ -169,8 +165,6 @@ section img {width:99.99%}
 }
 
 .fotos {
-
-    /* width: 30vh; */
     height: auto;
     filter: grayscale(1);
     border: 2px solid rgb(81, 206, 255); 
@@ -181,19 +175,7 @@ section img {width:99.99%}
     height: 100%;
     object-fit: cover;
 }
-/* .fotos1 {
-    grid-area: "imagen";
-    width: 30vh;
-    height: auto;
-    filter: grayscale(1);
-    border: 2px solid rgb(81, 206, 255); 
-    transition: all .5s;  
-}
-.fotos1 img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-} */
+
 .GrillaFotos {
     display: grid;
     justify-content: center;
@@ -227,45 +209,18 @@ section img {width:99.99%}
 }
 
 
-/* @keyframes mi-efecto {
-    0% {
-        background-image: url(./img/Foto\ Inicio.jpg);
-        
-    }
-    35% {
-        background-image: url(./img/Foto\ Fin.jpg);
-        
-    }
-    50% {
-        
-    }    
-    75% {
-        background-image: url(./img/Chicos2.jpg);
-        
-    }    
-    100% {
-        background-image: url(./img/Chicos1.jpg);
-        
-    }    
-}
 
-/* .transition {
-    margin-left: 7.5%; 
-    width: 85vw;
-    height: 95vh;
-    background-size: cover;
-    background-attachment:local;
-    justify-content: center;
-    align-items: center;
-    animation: mi-efecto 25s  2s  infinite ;
-} */ */
 .textito {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .menuMobile {
     display: none;
+}
+.Titulo {
+    text-align: center;
 }
 @media  (min-width: 768px) and (max-width: 1023px) {
     .header {
@@ -292,7 +247,7 @@ section img {width:99.99%}
     .Personas {
         display: grid;
         grid-template-columns: repeat(2,auto); 
-/*      grid-area: "fotos fotos"; */
+
     }
     .transition {
         margin-left: 7.5%; 
@@ -306,24 +261,7 @@ section img {width:99.99%}
     }
 }
 @media (max-width: 767px) {
-  /*   .header {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        background: linear-gradient(90deg,  rgb(155, 23, 155),black);
-    }
-    .header__menu ul a:hover{    
-        color: black;
-    }
-    .Footer {
-        background: linear-gradient(90deg,  rgb(155, 23, 155),black);
-    }
-    .header__menu ul a{
 
-
-        padding: 0 5px;
-    } */
     .menuMobile {
         display: block;
     }
@@ -345,12 +283,12 @@ section img {width:99.99%}
         align-items: center;
         gap: 0.1vh;
         grid-template-columns: repeat(2, auto);
-        /* grid-area: "fotos fotos"; */
+    
     }
         .Personas {
             display: grid;
             grid-template-columns: repeat(2,auto);
-            /* grid-area: "fotos fotos"; */
+            
         }
 
 
