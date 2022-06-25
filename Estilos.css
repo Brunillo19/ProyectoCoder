@@ -18,7 +18,7 @@
     background: linear-gradient(90deg, black, rgb(0, 44, 138)); 
 
     z-index: 2;
-    justify-content: space-between;
+    gap: 35%;
     left:33%;
     opacity: 85%;
 }
@@ -96,8 +96,8 @@
 } 
 h1 {
     position: absolute;
-margin-left: 35%;
-color: white;
+    margin-left: 30%;
+    margin-right: 30%;
 vertical-align: auto;
 text-align: center;}
 section img {width:99.99%}
@@ -216,12 +216,13 @@ section img {width:99.99%}
     align-items: center;
 }
 
-.menuMobile {
+/* .menuMobile {
     display: none;
-}
+} */
 .Titulo {
     text-align: center;
 }
+
 @media  (min-width: 768px) and (max-width: 1023px) {
     .header {
         display: flex;
@@ -306,3 +307,6 @@ section img {width:99.99%}
     text-decoration: none;
 }
 
+.alinear {
+    justify-content: center;
+}
