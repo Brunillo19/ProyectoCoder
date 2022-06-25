@@ -249,7 +249,7 @@ section img {width:99.99%}
     }    
 }
 
-.transition {
+/* .transition {
     margin-left: 7.5%; 
     width: 85vw;
     height: 95vh;
@@ -258,7 +258,7 @@ section img {width:99.99%}
     justify-content: center;
     align-items: center;
     animation: mi-efecto 25s  2s  infinite ;
-} */
+} */ */
 .textito {
     display: flex;
     justify-content: center;
