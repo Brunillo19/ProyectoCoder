@@ -20,74 +20,11 @@
     opacity: 85%;
     justify-content: space-between;
 }
-.header__menu ul{
-    display: flex;
-    list-style: none;
-    font-size: 0.5em;
-    justify-content: center;
-    gap: 10px;
-
-}
-.header .logo {
-    left: 0;
-}
-/* .boton {
-    bottom: 32px;
-    box-shadow: 3px 3px 9px rgba(0,0,0,.5);
-    opacity: .75;
-    position: fixed;
-    right: 32px;
-    transition: opacity 250ms;
-    z-index: 2;
-    min-width: auto;
-} */
-.header__menu ul a{
-
-    text-decoration: none;
-/*     background-color: darkgray; */
-    border-radius: 10%;
-    padding: 0 15px;
-    /* font-size: 0.5em; */
-    color: white;
-    display: flex;
-    
-}
-.header__menu li {
-    display: inline-block;
-    position:relative;
-    /* font-size: 15px; */
-    transition: all 1s;
- }
- 
-.header__menu ul ul {
-    position: absolute;
-    display: none;
- }
- .header__menu ul ul li {
-    display: block;
-    margin: 2px;
-    background-color: #F0F0F0;
-    opacity: 90%;
-    font-size: 1.5em;
-    
- }
 
 
- .header__menu ul li:hover ul {
-    display:block;
 
- }
- .header__menu ul a:hover{    
-     color: red;
-    }
- .header__menu ul li ul a:hover{    
-     color: red;
-    }
- .header__menu ul li ul a{    
-     color: black;
-    }
 
- /* MENU */
+
 .Inicio{
     height: 95%;
 
@@ -100,13 +37,10 @@ vertical-align: auto;
 text-align: center;}
 section img {width:99.99%}
 
-.Inicio .Titulo{
-    background-color: none;
-    display: block;
+
+
+.Titulo {
     text-align: center;
-    font-family: 'Poiret One', cursive;  
-    color: white;
-    
 } 
 .h2 {
     color: white;  
@@ -161,6 +95,21 @@ section img {width:99.99%}
 .textosFotos img {
     width: 40vh;
 }
+.textosFotos a {
+    text-decoration: none;
+    font-size: .7em;
+}
+
+
+
+.textosFotos img:hover {
+    border: 2px solid rgb(2, 248, 248);
+
+}
+.textosFotos a:hover {
+    color:red;
+    
+}
 .PortfolioFotos img {
     width: 40vh;
 }
@@ -197,6 +146,21 @@ section img {width:99.99%}
 .yo {
     color: black;
 }
+
+
+
+.textito {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carrusela {
+    width: 75%;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Footer */
 .fotosLinks {
     filter: grayscale(1);
 }
@@ -207,21 +171,6 @@ section img {width:99.99%}
 }
 .Links {
     color: white;
-}
-
-
-
-.textito {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-/* .menuMobile {
-    display: none;
-} */
-.Titulo {
-    text-align: center;
 }
 
 @media  (min-width: 768px) and (max-width: 1023px) {
@@ -296,40 +245,5 @@ section img {width:99.99%}
 
    
 } 
-.navbar {
-    display: none;
-}
-.carrusela {
-    width: 75%;
-    display: block;
-    margin: 0 auto;
-}
-.textosFotos a {
-    text-decoration: none;
-}
 
-.collapse div ul li a {
-    text-decoration: none;
-    color: white;
-}
-.collapse div ul li a:hover {
 
-    color: black;
-}
-.collapse div ul {
-
-    list-style: none;
-
-}
-.textosFotos a {
-    font-size: .7em;
-
-}
-.textosFotos img:hover {
-    border: 2px solid rgb(2, 248, 248);
-
-}
-.textosFotos a:hover {
-    color:red;
-    
-}

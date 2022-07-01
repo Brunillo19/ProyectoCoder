@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BI Fotografía</title>
     <link rel="shortcut icon" href="./img/Sin título.jpg" >
-    <link rel="stylesheet" href="./Estilos.css">
+    <link rel="stylesheet" href="./scss/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -30,51 +30,39 @@
         </div>
         
 
-          <div class="collapse" id="navbarToggleExternalContent">
-            <div class="p-4">
-              <ul>
-                <li class=""><a href="../index.html" class="text-decoration-none">Home</a> </li>
-                <li><a href="./pages/Portfolio.html" class="text-decoration-none"> Portfolio</a>
-                  <ul>
-                    <li><a href="./pages/fotos-personas.html" class="text-decoration-none">Personas</a> </li>
-                    <li><a href="./pages/fotos-paisajes.html" class="text-decoration-none">Paisajes</a> </li>
-                  </ul>
-                </li>
-                
-                <li><a href="./pages/AboutMe.html" class="text-decoration-none">Sobre Mi</a> </li>
-                <li><a href="./pages/Contacto.html" class="text-decoration-none">Contacto</a> </li>
-              </ul>
-              
-            </div>
-          </div>
+          <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+    
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
         
-          <nav class="navbar navbar-dark ">
-            <div class="container-fluid">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-            </div>
-          </nav>
-        <!-- Menú desktop -->
-          
-           
-           <!--  <nav class="header__menu animate__animated animate__backInRight">
-                <ul>
-                    <li><a href="../index.html">Home</a> </li>
-                    <li><a href="./pages/Portfolio.html"> Portfolio</a>
-                        <ul>
-                            <li><a href="./pages/fotos-personas.html">Personas</a> </li>
-                            <li><a href="./pages/fotos-paisajes.html">Paisajes</a> </li>
-                        </ul>
-                    </li>
-                    
-                    <li><a href="./pages/AboutMe.html">Sobre Mi</a> </li>
-                    <li><a href="./pages/Contacto.html">Contacto</a> </li>
-                </ul>
-              </nav> -->
-          
-              <!-- Fin Menu desktop -->
-             <!-- Fin Menú Mobile -->
+        <li class="nav-item">
+          <a class="navbarra" href="./index.html">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="navbarra dropdown-toggle" href="./pages/Portfolio.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Portfolio
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="./pages/fotos-personas.html">Personas</a></li>
+            <li><a class="dropdown-item" href="./pages/fotos-paisajes.html">Paisajes</a></li>
+            
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="navbarra" href="./pages/AboutMe.html">Sobre Mi</a>
+        </li>
+        <li class="nav-item">
+          <a class="navbarra" href="./pages/Contacto.html">Contacto</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+        
     </header>
     <h1 class="text-light ">Bienvenidos a BI Fotografía</h1>
     <section class="Inicio">
@@ -86,12 +74,9 @@
     <div class="textito">
         <h2>Disfruta de las imágenes</h2>
     </div>
-    <!-- Animación carrusel -->
-    <!-- <div class="transition">
-        
-    </div> -->
-    <div class="carrusela">
-    <div id="carouselExampleFade" class="carousel slide carousel-fade " data-bs-ride="carousel">
+    
+  <div class="carrusela">
+    <div id="carouselExampleFade" class="carousel slide carousel-fade w-75 mx-auto" data-bs-ride="carousel">
 
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -118,6 +103,7 @@
       </div>
       <!-- <a href="./index.html" class="boton"> Subir</a> -->
     </div>
+  
     <footer class="Footer">
     
         
