@@ -133,7 +133,7 @@ section img {width:99.99%}
     }
 }
 .variaciones {
-    background: $colorPrincipal;
+    background: map-get($colores , principal );
 text-align: center;
 justify-content: space-evenly;
 list-style: none;
@@ -143,10 +143,10 @@ color: white;
 }
 .Footer {
     
-    @extend variaciones;
+    @extend .variaciones;
     
     & a{
-        @extend variaciones;
+        @extend .variaciones;
     }
     .FooterLink {
         display: flex;
@@ -163,6 +163,9 @@ color: white;
     }
     .fotosLinks {
         filter: grayscale(1);
+    }
+    .FooterTexto {
+        margin-bottom: 0;
     }
     
     

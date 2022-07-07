@@ -6,6 +6,8 @@
   text-decoration: none;
 }
 
+/* $colorPrincipal:linear-gradient(90deg, black, rgb(0, 44, 138));
+$colorSecundario:linear-gradient(90deg,  rgb(155, 23, 155),black); */
 h1 {
   position: absolute;
   margin-left: 30%;
@@ -131,7 +133,7 @@ section img {
   color: white;
 }
 
-.Footer {
+.variaciones, .Footer a, .Footer {
   background: linear-gradient(90deg, black, rgb(0, 44, 138));
   text-align: center;
   justify-content: space-evenly;
@@ -140,14 +142,7 @@ section img {
   background-color: transparent;
   color: white;
 }
-.Footer a {
-  text-align: center;
-  justify-content: space-evenly;
-  list-style: none;
-  text-decoration: none;
-  background-color: transparent;
-  color: white;
-}
+
 .Footer .FooterLink {
   display: flex;
   justify-content: space-around;
@@ -162,6 +157,9 @@ section img {
 }
 .Footer .fotosLinks {
   filter: grayscale(1);
+}
+.Footer .FooterTexto {
+  margin-bottom: 0;
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
