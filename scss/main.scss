@@ -167,13 +167,17 @@ color: white;
     
     
 }
+@mixin cambios {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 @media  (min-width: 768px) and (max-width: 1023px) {
     .header {
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        @include cambios;
+        
         background: map-get($colores, secundario );
     }
     
@@ -198,9 +202,7 @@ color: white;
 @media (max-width: 767px) {
     .header {
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        @include cambios;
     }
     
     
