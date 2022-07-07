@@ -6,8 +6,12 @@
     text-decoration: none;
 
 }
-$colorPrincipal:linear-gradient(90deg, black, rgb(0, 44, 138));
-$colorSecundario:linear-gradient(90deg,  rgb(155, 23, 155),black);
+$colores: (
+    principal:linear-gradient(90deg, black, rgb(0, 44, 138)),
+    secundario:linear-gradient(90deg,  rgb(155, 23, 155),black)
+    );
+/* $colorPrincipal:linear-gradient(90deg, black, rgb(0, 44, 138));
+$colorSecundario:linear-gradient(90deg,  rgb(155, 23, 155),black); */
 h1 {
     position: absolute;
     margin-left: 30%;
@@ -25,7 +29,7 @@ section img {width:99.99%}
     display: flex;
     position: sticky;
     top: 0.1px;
-    background: $colorPrincipal; 
+    background: map-get($colores, principal ); 
     z-index: 2;
     left:33%;
     opacity: 85%;
@@ -128,22 +132,21 @@ section img {width:99.99%}
         color: white;
     }
 }
-.Footer {
+.variaciones {
     background: $colorPrincipal;
-    text-align: center;
-    justify-content: space-evenly;
-    list-style: none;
-    text-decoration: none;
-    background-color: transparent;
-    color: white;
+text-align: center;
+justify-content: space-evenly;
+list-style: none;
+text-decoration: none;
+background-color: transparent;
+color: white;
+}
+.Footer {
+    
+    @extend variaciones;
     
     & a{
-        text-align: center;
-    justify-content: space-evenly;
-    list-style: none;
-    text-decoration: none;
-    background-color: transparent;
-    color: white;
+        @extend variaciones;
     }
     .FooterLink {
         display: flex;
@@ -164,13 +167,14 @@ section img {width:99.99%}
     
     
 }
+
 @media  (min-width: 768px) and (max-width: 1023px) {
     .header {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background: $colorSecundario;
+        background: map-get($colores, secundario );
     }
     
     .fotos {
