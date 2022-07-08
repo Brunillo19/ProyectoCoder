@@ -132,11 +132,14 @@ section img {width:99.99%}
         color: white;
     }
 }
+@mixin prueba ($just, $lista, $texto) {
+    justify-content: $just;
+    list-style: $lista;
+    text-align: $texto;
+}
 .variaciones {
-    background: map-get($colores , principal );
-text-align: center;
-justify-content: space-evenly;
-list-style: none;
+background: map-get($colores , principal );
+@include prueba(space-evenly,none ,center );
 text-decoration: none;
 background-color: transparent;
 color: white;
@@ -148,10 +151,10 @@ color: white;
     & a{
         @extend .variaciones;
     }
-    .FooterLink {
+    &Link {
         display: flex;
-    justify-content: space-around;
-    align-items: center;
+        @include prueba(space-around,"" ,center );
+
         .Links {
             color: white;
             &:hover {
@@ -164,7 +167,7 @@ color: white;
     .fotosLinks {
         filter: grayscale(1);
     }
-    .FooterTexto {
+    &Texto {
         margin-bottom: 0;
     }
     

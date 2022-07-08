@@ -143,22 +143,22 @@ section img {
   color: white;
 }
 
-.Footer .FooterLink {
+.FooterLink {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-.Footer .FooterLink .Links {
+.FooterLink .Links {
   color: white;
 }
-.Footer .FooterLink .Links:hover {
+.FooterLink .Links:hover {
   box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.39);
   outline: 0;
 }
 .Footer .fotosLinks {
   filter: grayscale(1);
 }
-.Footer .FooterTexto {
+.FooterTexto {
   margin-bottom: 0;
 }
 
