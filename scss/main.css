@@ -146,7 +146,6 @@ section img {
 .FooterLink {
   display: flex;
   justify-content: space-around;
-  list-style: "";
   text-align: center;
 }
 .FooterLink .Links {

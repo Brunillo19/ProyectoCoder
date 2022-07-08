@@ -153,7 +153,7 @@ color: white;
     }
     &Link {
         display: flex;
-        @include prueba(space-around,"" ,center );
+        @include prueba(space-around,null,center );
 
         .Links {
             color: white;
