@@ -66,6 +66,13 @@ section img {
   align-content: center;
   color: black;
 }
+.textosFotos .Personas {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+}
+.textosFotos .Personas img:hover {
+  border: none;
+}
 .textosFotos img {
   width: 40vh;
 }
@@ -84,6 +91,15 @@ section img {
 }
 .textosFotos .FotoYo:hover {
   border: 0;
+}
+.textosFotos .yo {
+  color: black;
+  font-weight: bold;
+  width: 80%;
+}
+.textosFotos .titulos {
+  color: black;
+  font-weight: bold;
 }
 
 .Inicio {
@@ -113,17 +129,6 @@ section img {
   align-items: center;
   gap: 0.1vh;
   grid-template-columns: repeat(4, 1fr);
-}
-
-.yo {
-  color: black;
-  font-weight: bold;
-  width: 80%;
-}
-
-.Personas {
-  display: grid;
-  grid-template-columns: repeat(5, auto);
 }
 
 .form {
