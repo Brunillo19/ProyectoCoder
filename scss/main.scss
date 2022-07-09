@@ -232,6 +232,29 @@ color: white;
         grid-template-columns: repeat(2,auto); 
 
     }
+    .grillaResumen {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        .fotito {
+            
+            & img {
+                margin-top: 1rem;
+                width:100%;
+            }
+        }
+        & p {
+            color: white;
+            display: flex;
+            position: absolute;
+            margin-top: 1rem;
+            justify-content: center;
+            font-size: 5vw;
+            
+        }
+        .textofoto {
+            text-decoration: none;
+        }
+    }
 
 }
 @media (max-width: 767px) {
@@ -258,7 +281,29 @@ color: white;
             grid-template-columns: repeat(2,auto);
             
         }
-
+        .grillaResumen {
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            .fotito {
+                
+                & img {
+                    margin-top: 1rem;
+                    width:100%;
+                }
+            }
+            & p {
+                color: white;
+                display: flex;
+                position: absolute;
+                margin-top: 1rem;
+                justify-content: center;
+                font-size: 5vw;
+                
+            }
+            .textofoto {
+                text-decoration: none;
+            }
+        }
 
    
 } 

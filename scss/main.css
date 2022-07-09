@@ -215,6 +215,26 @@ section img {
     display: grid;
     grid-template-columns: repeat(2, auto);
   }
+
+  .grillaResumen {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .grillaResumen .fotito img {
+    margin-top: 1rem;
+    width: 100%;
+  }
+  .grillaResumen p {
+    color: white;
+    display: flex;
+    position: absolute;
+    margin-top: 1rem;
+    justify-content: center;
+    font-size: 5vw;
+  }
+  .grillaResumen .textofoto {
+    text-decoration: none;
+  }
 }
 @media (max-width: 767px) {
   .header {
@@ -239,5 +259,25 @@ section img {
   .Personas {
     display: grid;
     grid-template-columns: repeat(2, auto);
+  }
+
+  .grillaResumen {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .grillaResumen .fotito img {
+    margin-top: 1rem;
+    width: 100%;
+  }
+  .grillaResumen p {
+    color: white;
+    display: flex;
+    position: absolute;
+    margin-top: 1rem;
+    justify-content: center;
+    font-size: 5vw;
+  }
+  .grillaResumen .textofoto {
+    text-decoration: none;
   }
 }/*# sourceMappingURL=main.css.map */
