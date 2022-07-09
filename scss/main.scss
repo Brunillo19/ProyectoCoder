@@ -122,7 +122,7 @@ section img {width:99.99%}
     height: 100vh;
     .Contacto {
         height: 100vh;
-        background-image: url(../img/Foto\ Fin.jpg);
+        background-image: url(../img/FotoFin.jpg);
         font-family: 'Poiret One', cursive;  
         text-align: center;
         align-items: center;
@@ -132,6 +132,30 @@ section img {width:99.99%}
         color: white;
     }
 }
+.carrusela {
+    width: 90%;
+    margin: 0 auto;
+}
+.grillaResumen {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    .fotito {
+        
+        & img {
+            margin-top: 1rem;
+            width:100%;
+        }
+    }
+    & p {
+        color: white;
+        display: flex;
+        position: absolute;
+        margin-top: 1rem;
+        justify-content: center;
+        font-size: 5vw;
+    }
+}
+
 @mixin prueba ($just, $lista, $texto) {
     justify-content: $just;
     list-style: $lista;
@@ -150,6 +174,7 @@ color: white;
     
     & a{
         @extend .variaciones;
+        background: transparent;
     }
     &Link {
         display: flex;
