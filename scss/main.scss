@@ -80,6 +80,10 @@ section img {width:99.99%}
                 
             }
         }
+        .FotoYo {
+            width: 45vh;
+            &:hover {border: 0;}
+        }
         
     }
     .Inicio {
@@ -111,6 +115,8 @@ section img {width:99.99%}
 }
 .yo {
     color: black;
+    font-weight: bold;
+    width: 80%;
 }
 .Personas {
     display: grid;

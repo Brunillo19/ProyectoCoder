@@ -79,6 +79,12 @@ section img {
 .textosFotos a:hover {
   color: red;
 }
+.textosFotos .FotoYo {
+  width: 45vh;
+}
+.textosFotos .FotoYo:hover {
+  border: 0;
+}
 
 .Inicio {
   height: 95%;
@@ -111,6 +117,8 @@ section img {
 
 .yo {
   color: black;
+  font-weight: bold;
+  width: 80%;
 }
 
 .Personas {
