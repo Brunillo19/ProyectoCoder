@@ -269,7 +269,7 @@ section img {
     grid-template-columns: repeat(2, auto);
   }
 
-  .Personas {
+  .textosFotos .Personas {
     display: grid;
     grid-template-columns: repeat(2, auto);
   }
