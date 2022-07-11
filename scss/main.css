@@ -171,6 +171,25 @@ section img {
   text-decoration: none;
 }
 
+.GoUp {
+  position: -webkit-sticky;
+  position: sticky;
+  /* margin: auto; */
+  bottom: 5%;
+  left: 92%;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: lightgray;
+  color: #001f60;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 30px;
+}
+.GoUpImg {
+  width: 3%;
+}
+
 .variaciones, .Footer a, .Footer {
   background: linear-gradient(90deg, black, rgb(0, 44, 138));
   justify-content: space-evenly;

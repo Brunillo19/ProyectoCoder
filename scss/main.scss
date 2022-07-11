@@ -174,6 +174,24 @@ section img {width:99.99%}
         text-decoration: none;
     }
 }
+.GoUp {
+    position: sticky;
+    /* margin: auto; */
+    bottom: 5%;
+    left: 92%;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: lightgray;
+    color: #001f60;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 30px;
+    
+    &Img {
+        width: 3%;
+    }
+}
 
 @mixin prueba ($just, $lista, $texto) {
     justify-content: $just;
