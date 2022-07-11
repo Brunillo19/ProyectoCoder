@@ -361,9 +361,12 @@ color: white;
                 text-decoration: none;
             }
         }
-        .GoUp Img {
+        .GoUp {
+        left: 87%;
+        &Img {
             width:6%;
         }
+    }
 
    
 } 

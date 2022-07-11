@@ -328,7 +328,10 @@ section img {
     text-decoration: none;
   }
 
-  .GoUp Img {
+  .GoUp {
+    left: 87%;
+  }
+  .GoUpImg {
     width: 6%;
   }
 }/*# sourceMappingURL=main.css.map */
