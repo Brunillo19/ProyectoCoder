@@ -233,6 +233,12 @@ color: white;
     
     .fotos {
         display: grid;
+       
+            &:hover {
+                filter: none;
+            
+            }
+        
     }
     .GrillaFotos {
         display: grid;
@@ -247,6 +253,7 @@ color: white;
         grid-template-columns: repeat(2,auto); 
 
     }
+    
     .grillaResumen {
         display: grid;
         grid-template-columns: repeat(2,1fr);
@@ -283,18 +290,33 @@ color: white;
         color: black;
     }
     
+    
     .GrillaFotos {
         display: grid;
         justify-content: center;
         align-items: center;
         gap: 0.1vh;
         grid-template-columns: repeat(2, auto);
+        .fotos {
+            display: grid;
+            &:hover {
+                filter: none;
+            
+            }
+        }
     
       }
       .textosFotos {
         .Personas {
             display: grid;
             grid-template-columns: repeat(2,auto);
+            .fotos {
+                display: grid;
+                &:hover {
+                    filter: none;
+                
+                }
+            }
             
         }
       }

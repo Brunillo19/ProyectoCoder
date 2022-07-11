@@ -215,6 +215,9 @@ section img {
   .fotos {
     display: grid;
   }
+  .fotos:hover {
+    filter: none;
+  }
 
   .GrillaFotos {
     display: grid;
@@ -268,10 +271,22 @@ section img {
     gap: 0.1vh;
     grid-template-columns: repeat(2, auto);
   }
+  .GrillaFotos .fotos {
+    display: grid;
+  }
+  .GrillaFotos .fotos:hover {
+    filter: none;
+  }
 
   .textosFotos .Personas {
     display: grid;
     grid-template-columns: repeat(2, auto);
+  }
+  .textosFotos .Personas .fotos {
+    display: grid;
+  }
+  .textosFotos .Personas .fotos:hover {
+    filter: none;
   }
 
   .grillaResumen {
