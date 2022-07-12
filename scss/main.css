@@ -115,8 +115,7 @@ section img {
 .fotos:hover {
   filter: none;
 }
-
-.fotos img {
+.fotosimg {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
@@ -230,14 +229,12 @@ section img {
     align-items: center;
     background: linear-gradient(90deg, rgb(155, 23, 155), black);
   }
-
   .fotos {
     display: grid;
   }
   .fotos:hover {
     filter: none;
   }
-
   .GrillaFotos {
     display: grid;
     justify-content: center;
@@ -245,12 +242,10 @@ section img {
     gap: 0.1vh;
     grid-template-columns: repeat(2, auto);
   }
-
   .Personas {
     display: grid;
     grid-template-columns: repeat(2, auto);
   }
-
   .grillaResumen {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -278,11 +273,9 @@ section img {
     justify-content: center;
     align-items: center;
   }
-
   a:hover {
     color: black;
   }
-
   .GrillaFotos {
     display: grid;
     justify-content: center;
@@ -296,7 +289,6 @@ section img {
   .GrillaFotos .fotos:hover {
     filter: none;
   }
-
   .textosFotos .Personas {
     display: grid;
     grid-template-columns: repeat(2, auto);
@@ -307,7 +299,6 @@ section img {
   .textosFotos .Personas .fotos:hover {
     filter: none;
   }
-
   .grillaResumen {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -327,7 +318,6 @@ section img {
   .grillaResumen .textofoto {
     text-decoration: none;
   }
-
   .GoUp {
     left: 87%;
   }
