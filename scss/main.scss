@@ -10,19 +10,20 @@ $colores: (
     principal:linear-gradient(90deg, black, rgb(0, 44, 138)),
     secundario:linear-gradient(90deg,  rgb(155, 23, 155),black)
     );
-/* $colorPrincipal:linear-gradient(90deg, black, rgb(0, 44, 138));
-$colorSecundario:linear-gradient(90deg,  rgb(155, 23, 155),black); */
+
 h1 {
     position: absolute;
     margin-left: 30%;
     margin-right: 30%;
     vertical-align: auto;
     text-align: center;
+    
 }
 .textito {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 1vw;
 }
 section img {width:99.99%}
 .header {
@@ -138,7 +139,7 @@ object-fit: cover;
     .Contacto {
         height: 100vh;
         background-image: url(../img/FotoFin.jpg);
-        font-family: 'Poiret One', cursive;  
+        
         text-align: center;
         align-items: center;
         justify-content: center;
@@ -150,6 +151,10 @@ object-fit: cover;
 .carrusela {
     width: 90%;
     margin: 0 auto;
+    .FotosCarrusel {
+        justify-content: center;
+        width: 100%;
+    }
 }
 .grillaResumen {
     display: grid;
@@ -288,7 +293,7 @@ color: white;
             position: absolute;
             margin-top: 1rem;
             justify-content: center;
-            font-size: 5vw;
+            
             
         }
         .textofoto {
@@ -306,6 +311,12 @@ color: white;
     
     a:hover {
         color: black;
+    }
+    .carrusela {
+        display:hidden;
+        .FotosCarrusel {
+            display: hidden;
+        }
     }
     
     
