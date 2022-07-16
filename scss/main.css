@@ -243,7 +243,7 @@ section img {
     justify-content: center;
     align-items: center;
     gap: 0.1vh;
-    grid-template-columns: repeat(2, auto);
+    grid-template-columns: repeat(3, auto);
   }
   .Personas {
     display: grid;
