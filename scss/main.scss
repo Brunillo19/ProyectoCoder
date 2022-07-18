@@ -135,13 +135,11 @@ object-fit: cover;
 
 
 .form {
-    height: 100vh;
     .Contacto {
         height: 100vh;
         background-image: url(../img/FotoFin.jpg);
         text-align: center;
-        align-items: center;
-        justify-content: center;
+
         display: block;
         background-size:cover;
         color: white;
@@ -149,12 +147,14 @@ object-fit: cover;
         .Contacto__TextoPrimario {
             margin-top: 1rem;
             margin-bottom: 1rem;
-            font-size: large;
+            font-size: larger;
         }
         .Contacto__TextoSecundario {
             margin-top: 3rem;
-            font-size: large;
-
+            font-size:larger;
+        }
+        div {
+            margin-top: 1rem;
         }
     }
 }
@@ -273,6 +273,11 @@ color: white;
             }
         
     }
+    .form {
+        .Contacto{
+            height: auto;
+        }
+    }
     .GrillaFotos {
         display: grid;
         justify-content: center;
@@ -326,6 +331,11 @@ color: white;
         display:hidden;
         .FotosCarrusel {
             display: hidden;
+        }
+    }
+    .form {
+        .Contacto{
+            height: auto;
         }
     }
     

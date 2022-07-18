@@ -130,15 +130,10 @@ section img {
   grid-template-columns: repeat(4, 1fr);
 }
 
-.form {
-  height: 100vh;
-}
 .form .Contacto {
   height: 100vh;
   background-image: url(../img/FotoFin.jpg);
   text-align: center;
-  align-items: center;
-  justify-content: center;
   display: block;
   background-size: cover;
   color: white;
@@ -147,11 +142,14 @@ section img {
 .form .Contacto .Contacto__TextoPrimario {
   margin-top: 1rem;
   margin-bottom: 1rem;
-  font-size: large;
+  font-size: larger;
 }
 .form .Contacto .Contacto__TextoSecundario {
   margin-top: 3rem;
-  font-size: large;
+  font-size: larger;
+}
+.form .Contacto div {
+  margin-top: 1rem;
 }
 
 .carrusela {
@@ -248,6 +246,9 @@ section img {
   .fotos:hover {
     filter: none;
   }
+  .form .Contacto {
+    height: auto;
+  }
   .GrillaFotos {
     display: grid;
     justify-content: center;
@@ -293,6 +294,9 @@ section img {
   }
   .carrusela .FotosCarrusel {
     display: hidden;
+  }
+  .form .Contacto {
+    height: auto;
   }
   .GrillaFotos {
     display: grid;
