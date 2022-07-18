@@ -142,6 +142,16 @@ section img {
   display: block;
   background-size: cover;
   color: white;
+  font-size: large;
+}
+.form .Contacto .Contacto__TextoPrimario {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: large;
+}
+.form .Contacto .Contacto__TextoSecundario {
+  margin-top: 3rem;
+  font-size: large;
 }
 
 .carrusela {

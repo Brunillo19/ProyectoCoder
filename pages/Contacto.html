@@ -67,7 +67,10 @@
         
         <form class="form" action="enviar.php" method="get">
             <div class="Contacto">
-                <h2 class="textosFotos"> Contacto</h2>
+              <h2 class="textosFotos"> Contacto</h2>
+              <p class="Contacto__TextoPrimario">
+                Usa el formulario que está debajo si tienes alguna duda o si quieres ponerte en contacto conmigo.
+              </p>
                 
                 
                 <div>
@@ -95,10 +98,17 @@
                 <textarea name="caja" id="caja" cols="30" rows="5"></textarea> 
                 </div>
                 
-                <input type="submit" value="Enviar Comentario">
+                <input type="submit" value="Enviar Comentario" style="font-size: 1.2rem;">
+                <p class="Contacto__TextoSecundario">Si quieres, pueden hacer una donación para motivarme a seguir subiendo fotos y mejorando este sitio.</p>
+                <script src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
+                data-preference-id="447888514-f23d9265-0e72-42fa-ad7c-594d11c6f888" data-source="button">
+                </script>
             </div>
             </form>
+
     </fieldset>
+
+
         
     <footer class="Footer">
 

@@ -139,13 +139,23 @@ object-fit: cover;
     .Contacto {
         height: 100vh;
         background-image: url(../img/FotoFin.jpg);
-        
         text-align: center;
         align-items: center;
         justify-content: center;
         display: block;
         background-size:cover;
         color: white;
+        font-size: large;
+        .Contacto__TextoPrimario {
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+            font-size: large;
+        }
+        .Contacto__TextoSecundario {
+            margin-top: 3rem;
+            font-size: large;
+
+        }
     }
 }
 .carrusela {
