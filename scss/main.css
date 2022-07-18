@@ -307,6 +307,9 @@ section img {
   .GrillaFotos .fotos:hover {
     filter: none;
   }
+  .textosFotos iframe {
+    width: 75%;
+  }
   .textosFotos .Personas {
     display: grid;
     grid-template-columns: repeat(2, auto);

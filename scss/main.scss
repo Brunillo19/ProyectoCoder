@@ -346,6 +346,9 @@ color: white;
     
       }
       .textosFotos {
+        iframe {
+            width:75%;
+        }
         .Personas {
             display: grid;
             grid-template-columns: repeat(2,auto);
