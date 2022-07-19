@@ -4,21 +4,24 @@
   box-sizing: 0;
   font-family: "Poiret One", cursive;
   text-decoration: none;
+  font-weight: 900;
 }
 
-h1 {
+.textoInicio {
   position: absolute;
   margin-left: 30%;
   margin-right: 30%;
-  vertical-align: auto;
   text-align: center;
+  color: white;
+  font-weight: 900;
 }
 
 .textito {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1vw;
+  font-weight: 900;
+  padding: 10px;
 }
 
 section img {
@@ -50,6 +53,9 @@ section img {
 }
 .header .navbar-nav .navbarra:hover {
   color: black;
+}
+.header .navbar-nav .dropdown-item {
+  font-weight: 900;
 }
 
 .textosFotos {
@@ -84,9 +90,6 @@ section img {
 }
 .textosFotos a:hover {
   color: red;
-}
-.textosFotos .FotoYo {
-  width: 45vh;
 }
 .textosFotos .FotoYo:hover {
   border: 0;
@@ -151,6 +154,17 @@ section img {
 .form .Contacto div {
   margin-top: 1rem;
 }
+.form .Contacto h2 {
+  font-weight: 900;
+}
+.form .Contacto button {
+  font-weight: 500;
+}
+
+.exito {
+  height: 10vh;
+  background-image: url(../img/IMG_20220117_072924.jpg);
+}
 
 .carrusela {
   width: 90%;
@@ -184,7 +198,6 @@ section img {
 .GoUp {
   position: -webkit-sticky;
   position: sticky;
-  /* margin: auto; */
   bottom: 5%;
   left: 92%;
   z-index: 99;

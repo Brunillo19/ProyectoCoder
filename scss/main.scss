@@ -4,6 +4,7 @@
     box-sizing: 0;
     font-family: 'Poiret One', cursive;
     text-decoration: none;
+    font-weight: 900;
 
 }
 $colores: (
@@ -11,19 +12,21 @@ $colores: (
     secundario:linear-gradient(90deg,  rgb(155, 23, 155),black)
     );
 
-h1 {
+
+.textoInicio {
     position: absolute;
     margin-left: 30%;
     margin-right: 30%;
-    vertical-align: auto;
     text-align: center;
-    
+    color: white;
+    font-weight: 900;
 }
 .textito {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1vw;
+    font-weight: 900;
+    padding: 10px;
 }
 section img {width:99.99%;}
 .header {
@@ -35,9 +38,6 @@ section img {width:99.99%;}
     left:33%;
     opacity: 85%;
     justify-content: space-between;
-    
-    
-    
     .logo {
         left:0;
     }
@@ -51,6 +51,9 @@ section img {width:99.99%;}
             &:hover {
                 color:black;
             }
+        }
+        .dropdown-item {
+            font-weight: 900;
         }
     }
 }
@@ -89,7 +92,6 @@ section img {width:99.99%;}
             }
         }
         .FotoYo {
-            width: 45vh;
             &:hover {border: 0;}
         }
         .yo {
@@ -135,6 +137,7 @@ object-fit: cover;
 
 
 .form {
+    
     .Contacto {
         height: 100vh;
         background-image: url(../img/FotoFin.jpg);
@@ -156,7 +159,18 @@ object-fit: cover;
         div {
             margin-top: 1rem;
         }
+        h2 {
+            font-weight: 900;
+        }
+        button {
+            font-weight: 500;
+        }
+        
     }
+}
+.exito {
+    height: 10vh;
+    background-image:url(../img/IMG_20220117_072924.jpg);
 }
 .carrusela {
     width: 90%;
@@ -191,7 +205,6 @@ object-fit: cover;
 }
 .GoUp {
     position: sticky;
-    /* margin: auto; */
     bottom: 5%;
     left: 92%;
     z-index: 99;

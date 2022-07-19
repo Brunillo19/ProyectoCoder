@@ -62,58 +62,15 @@
       
   </header>
     
-    
-    <fieldset>
-        
-        <form class="form" action="enviar.php" method="post">
-            <div class="Contacto">
-              <h2 class="textosFotos"> Contacto</h2>
-              <p class="Contacto__TextoPrimario">
-                Usa el formulario que está debajo si tienes alguna duda o si quieres ponerte en contacto conmigo.
-              </p>
-                
-                
-                <div>
-                    <label for="nombre">Tu nombre</label>
-                </div>
-                
-                <div>                                        
-                        <input type="text" id="nombre" name="nombre">   
-                </div>
-                <div>
-                    <label for="telefono">Número de teléfono</label>
-                </div>
-                <div>                                        
-                        <input type="number" id="telefono" name="telefono">   
-                </div>
-                <div>            
-                    <label for="email">Tu correo</label>
-                </div>
-                <div>
-                <input type="email" id="email" name="email">   
-                </div>                                
-                <div>
-                <label for="asunto">Asunto</label>                                                
-                </div>
-                <div>
-                <input type="text" id="asunto" name="asunto">   
-                </div>                
-                <div>                    
-                <label for="caja">Deja tu comentario para mejorar este sitio</label>
-                </div>                    
-                <div>                    
-                <textarea name="caja" id="caja" cols="30" rows="5"></textarea> 
-                </div>
-                
-                <input type="submit" value="Enviar Comentario" style="font-size: 1.2rem;">
-                <p class="Contacto__TextoSecundario">Si quieres, puedes hacer una donación para motivarme a seguir subiendo fotos y mejorando este sitio.</p>
-                <script src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
-                data-preference-id="447888514-f23d9265-0e72-42fa-ad7c-594d11c6f888" data-source="button">
-                </script>
-            </div>
-            </form>
-
-    </fieldset>
+  <h2 class="textoInicio"> Gracias por su comentario</h2>
+    <section class="Inicio">
+        <img src="../img/IMG_20220117_072924.jpg" alt="Foto Exito">
+    </section>
+    <script>
+        setTimeout(function() {
+            window.location.replace("../index.html")
+        },2000);
+    </script>
 
 
         
