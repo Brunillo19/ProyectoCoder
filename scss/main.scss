@@ -139,7 +139,7 @@ object-fit: cover;
 .form {
     
     .Contacto {
-        height: 100vh;
+        height: auto;
         background-image: url(../img/FotoFin.jpg);
         text-align: center;
 
@@ -286,11 +286,7 @@ color: white;
             }
         
     }
-    .form {
-        .Contacto{
-            height: auto;
-        }
-    }
+    
     .GrillaFotos {
         display: grid;
         justify-content: center;
@@ -346,11 +342,7 @@ color: white;
             display: hidden;
         }
     }
-    .form {
-        .Contacto{
-            height: auto;
-        }
-    }
+    
     
     
     .GrillaFotos {

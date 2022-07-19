@@ -134,7 +134,7 @@ section img {
 }
 
 .form .Contacto {
-  height: 100vh;
+  height: auto;
   background-image: url(../img/FotoFin.jpg);
   text-align: center;
   display: block;
@@ -259,9 +259,6 @@ section img {
   .fotos:hover {
     filter: none;
   }
-  .form .Contacto {
-    height: auto;
-  }
   .GrillaFotos {
     display: grid;
     justify-content: center;
@@ -307,9 +304,6 @@ section img {
   }
   .carrusela .FotosCarrusel {
     display: hidden;
-  }
-  .form .Contacto {
-    height: auto;
   }
   .GrillaFotos {
     display: grid;
