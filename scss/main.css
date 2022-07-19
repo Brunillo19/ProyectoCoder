@@ -303,7 +303,7 @@ section img {
     justify-content: center;
     align-items: center;
     gap: 0.1vh;
-    grid-template-columns: repeat(2, auto);
+    grid-template-columns: repeat(1, auto);
   }
   .GrillaFotos .fotos {
     display: grid;
@@ -316,7 +316,7 @@ section img {
   }
   .textosFotos .Personas {
     display: grid;
-    grid-template-columns: repeat(2, auto);
+    grid-template-columns: repeat(1, auto);
   }
   .textosFotos .Personas .fotos {
     display: grid;
