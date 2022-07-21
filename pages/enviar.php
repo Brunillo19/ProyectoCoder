@@ -17,7 +17,7 @@ $informacion_adicional .= 'Content-type: text/html; charset=UTF-8'. "\r\n";
 $informacion_adicional .= 'From: '. $nombre. '<'.$email.'>' "\r\n";
 
 
-mail('iglesiasb11@gmail.com','Comentario en BI Fotografía', $cuerpo,$informacion_adicional);
+mail('iglesiasb11@gmail.com','Comentario en BI Fotografía', $mensaje,$informacion_adicional);
 
 header("Location:exito.html");
 
