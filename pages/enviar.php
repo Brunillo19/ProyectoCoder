@@ -8,7 +8,7 @@ $caja = $_POST ['caja'];
 
 
 $mensaje = <<<MAIL
-El usuario $nombre, con número de teléfono $telefono, ha realizado un comentario en tu sitio web. <br />
+El usuario $nombre, con número de teléfono $numero, ha realizado un comentario en tu sitio web. <br>
 Comentario: $caja
 MAIL;
 
