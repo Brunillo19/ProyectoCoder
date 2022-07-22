@@ -160,6 +160,9 @@ section img {
 .form .Contacto button {
   font-weight: 500;
 }
+.form .Contacto .form__button {
+  font-size: 1.2rem;
+}
 
 .exito {
   height: 10vh;
@@ -355,5 +358,9 @@ section img {
   }
   .GoUpImg {
     width: 6%;
+  }
+  .form .Contacto .form__input {
+    width: 75%;
+    max-width: 50%;
   }
 }/*# sourceMappingURL=main.css.map */

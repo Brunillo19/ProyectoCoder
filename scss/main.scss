@@ -165,6 +165,9 @@ object-fit: cover;
         button {
             font-weight: 500;
         }
+        .form__button {
+            font-size: 1.2rem;
+        }
         
     }
 }
@@ -406,6 +409,15 @@ color: white;
             width:6%;
         }
     }
+        .form {
+            .Contacto {
+                .form__input {
+                    width: 75%;
+                    max-width: 50%;
+                }
+                
+            }
+        }
 
    
 } 
