@@ -12,8 +12,8 @@ El usuario $nombre, con número de teléfono $numero, ha realizado un comentario
 Comentario: $caja
 MAIL;
 
-$informacion_adicional = 'Mime-Version: 1.0'. ;
-$informacion_adicional .= 'Content-type: text/html; charset=UTF-8'. ;
+$informacion_adicional = 'Mime-Version: 1.0' ;
+$informacion_adicional .= 'Content-type: text/html; charset=UTF-8' ;
 $informacion_adicional .= 'From: '. $nombre. '<'.$email.'>' ;
 
 
