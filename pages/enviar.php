@@ -12,9 +12,9 @@ El usuario $nombre, con número de teléfono $numero, ha realizado un comentario
 Comentario: $caja
 MAIL;
 
-$informacion_adicional = 'Mime-Version: 1.0'. "\r\n";
-$informacion_adicional .= 'Content-type: text/html; charset=UTF-8'. "\r\n";
-$informacion_adicional .= 'From: '. $nombre. '<'.$email.'>' "\r\n";
+$informacion_adicional = 'Mime-Version: 1.0'. ;
+$informacion_adicional .= 'Content-type: text/html; charset=UTF-8'. ;
+$informacion_adicional .= 'From: '. $nombre. '<'.$email.'>' ;
 
 
 mail('iglesiasb11@gmail.com', 'Comentario en BI Fotografía', $mensaje, $informacion_adicional);
