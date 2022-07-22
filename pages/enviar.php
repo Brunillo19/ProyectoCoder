@@ -1,9 +1,9 @@
 <?php
 
-$nombre = $_POST ['nombre'];
-$numero = $_POST ['telefono'];
-$email = $_POST ['email'];
-$caja = $_POST ['caja'];
+$nombre = $_POST['nombre'];
+$numero = $_POST['telefono'];
+$email = $_POST['email'];
+$caja = $_POST['caja'];
 
 
 
