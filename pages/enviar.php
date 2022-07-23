@@ -6,19 +6,15 @@ $email = $_POST['email'];
 $caja = $_POST['caja'];
 
 
-
-$mensaje = <<<MAIL
-El usuario $nombre, con número de teléfono $numero, ha realizado un comentario en tu sitio web. <br>
-Comentario: $caja
-MAIL;
-
-$informacion_adicional = 'Mime-Version: 1.0' ;
-$informacion_adicional .= 'Content-type: text/html; charset=UTF-8' ;
-$informacion_adicional .= 'From: '. $nombre. '<'.$email.'>' ;
+$mensaje = "Este mensaje fue enviado por " . $nombre . ",\r\n";
+$mensaje .= "Su email es " . $mail . ",\r\n";
+$mensaje .= "Su teléfono es " . $telefono . ",\r\n";
+$mensaje .= "Mensaje: " . $caja . ",\r\n";
+$mensaje .= "Enviado el: " . date("d/m/y", time());
 
 
-mail('iglesiasb11@gmail.com', 'Comentario en BI Fotografía', $mensaje, $informacion_adicional);
+mail('iglesiasb11@gmail.com', 'Comentario en BI Fotografía',utf8_decode( $mensaje) );
 
-header("Location:exito.html");
+header('Location: exito.html');
 
 ?>
