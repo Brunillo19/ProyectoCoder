@@ -7,8 +7,8 @@ $caja = $_POST['caja'];
 
 
 $mensaje = "Este mensaje fue enviado por " . $nombre . ",\r\n";
-$mensaje .= "Su email es " . $mail . ",\r\n";
-$mensaje .= "Su teléfono es " . $telefono . ",\r\n";
+$mensaje .= "Su email es " . $email . ",\r\n";
+$mensaje .= "Su teléfono es " . $numero . ",\r\n";
 $mensaje .= "Mensaje: " . $caja . ",\r\n";
 $mensaje .= "Enviado el: " . date("d/m/y", time());
 
